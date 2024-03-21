@@ -12,7 +12,7 @@ model = joblib.load("titanic_model.joblib")
 
 class Passenger(BaseModel):
     Pclass: int
-    Sex: str
+    Sex: int
     Age: float
     SibSp: int
     Parch: int
