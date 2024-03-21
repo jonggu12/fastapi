@@ -1,0 +1,4 @@
+fastapi
+gensim
+boto3
+botocore
