@@ -8,7 +8,7 @@ app = FastAPI()
 handler = Mangum(app)
 
 # 저장된 모델 로드
-model = joblib.load("titanic/titanic_model.joblib")
+model = joblib.load("titanic_model.joblib")
 
 class Passenger(BaseModel):
     Pclass: int
